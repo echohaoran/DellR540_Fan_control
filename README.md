@@ -14,6 +14,7 @@ ipmitool -I lanplus -H <iDRAC_IP> -U <username> -P <password> raw 0x30 0x30 0x02
 
 因为ipmitool进行风扇管理时，需要使用十六进制，以下为对应关系：
 
+
 ｜转速百分比｜十六进制｜
 ｜---------｜---------｜
 ｜0%｜0x00|
